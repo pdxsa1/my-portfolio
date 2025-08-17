@@ -30,4 +30,10 @@ nav .left a {
 
 nav .right a {
     color: var(--text-color);
+    margin: 0 10px;
+}
+
+nav .right a:last-child {
+    color: var(--background-color);
+    background-color: var(--text-color);
 }
